@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const API_HOST_CONTENT =
-  process.env.API_HOST_CONTENT || 'http://adfdev.envalfresco.com';
+  process.env.API_HOST_CONTENT || 'http://0.0.0.0:8080';
 
 module.exports = {
   '/alfresco': {
